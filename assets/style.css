@@ -1,0 +1,213 @@
+:root {
+    --First: #3A3B3C;
+    --Second: #6339c5;
+    --Hover: #9b1818;
+}
+
+html  {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--First);
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--Hover);
+    background-color: var(--Hover);
+    box-shadow: 0 0 1rem 0 black;
+    height: 16.5rem;
+}
+
+
+header h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    background-color: var(--Hover);
+    margin-left: 2rem;
+
+}
+
+#background {
+    background-image: url(masashi-wakui-neon-lights-photo-manipulation-photography-wallpaper-preview.jpeg);
+    display: flex;
+    height: 28rem;
+    width: 100%;
+    margin: 0;
+    justify-content: right;
+    align-items: flex-end;
+    color: white;
+    font-size: 1rem;
+
+}
+
+#hi {
+    color: white;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem 0px;
+    font-size: 2.5rem;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    border-bottom: .5rem solid white ;
+}
+
+header nav ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   list-style: none;
+}
+
+header nav ul li {
+    padding: 2rem;
+}
+
+header nav {
+    margin: 3.5rem;
+}
+
+
+.pagelinks{
+    padding: 10px;
+    margin: 1rem 1rem 0 0;
+    font: bold;
+    font-size: 2.5rem;
+
+}
+
+.pagelinks a:hover {
+    background-color: var(--First);
+    border-radius: 15px;
+}
+
+
+.main-row {
+    border-right: 5px solid ;
+    min-height: 100%;
+    text-align: right;
+    width: 15%;
+    padding: 2rem;
+    /* margin-left: -160px; */
+}
+
+.main-row h3 {
+    font-size: 4.8rem;
+    display: flex;
+}
+
+
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 3rem;
+}
+
+
+.about-me p {
+    font-size: 2rem;
+    padding: 0 3rem;   
+    line-height: 1.6;
+
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-end;
+    margin: 1.5rem;
+    width: 45%;
+    height: 15rem;
+
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    background-image: url(./Images/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg)
+}
+
+.card:hover{
+    box-shadow: 0 0 20px #9b1818;
+}
+
+.main-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 13rem !important;
+    margin-top: 2rem;
+}
+
+.body {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-work {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+#main-card {
+    width: 100%;
+}
+
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+
+.content-blank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.content-blank ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    
+}
+
+.content-blank ul li {
+    font-size:  30px;
+    color: black;
+
+}
+
+
+#hello {
+    padding-right: -50px;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+}
